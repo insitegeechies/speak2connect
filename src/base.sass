@@ -1,0 +1,13 @@
+@tailwind base
+@tailwind components
+@tailwind utilities
+
+@layer base
+    header
+        @apply text-gray-100
+    .active-link
+        @apply bg-bottom bg-gradient-to-r from-customPink-500 to-customPink-500 bg-[length:100%_2px] bg-no-repeat ease-out
+    .text-underscore-effect
+        @apply bg-bottom bg-gradient-to-r from-customPink-500 to-customPink-500 bg-[length:0%_2px] bg-no-repeat ease-out
+    .text-underscore-effect:hover
+        @apply bg-[length:100%_2px]

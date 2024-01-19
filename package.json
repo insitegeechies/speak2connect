@@ -1,0 +1,25 @@
+{
+  "name": "speak2connect",
+  "version": "1.0.0",
+  "description": "Speak n' Link is a small business agency providing quality service as REVA/Telemarketers, Appointment Setters, Cold Callers, Lead Generation, Telemarketing, Admin Work, and Virtual Assistance.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "postcss ./src/base.css -o ./public/assets/css/styles.css --watch --verbose",
+    "prod": "NODE_ENV=production postcss ./src/main.css -o ./public/assets/css/styles.css"
+  },
+  "keywords": [],
+  "author": "wrenSiteFx",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "cross-env": "^7.0.3",
+    "cssnano": "^6.0.3",
+    "postcss": "^8.4.33",
+    "postcss-cli": "^11.0.0"
+  },
+  "devDependencies": {
+    "daisyui": "^4.6.0",
+    "preline": "^2.0.3",
+    "tailwindcss": "^3.4.1"
+  }
+}
